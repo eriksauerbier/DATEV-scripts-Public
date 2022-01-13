@@ -1,5 +1,5 @@
 ﻿# Skript zum Einstellen der Viwas Prüfungen
-# STannek GmbH - v.1.01 - E.Sauerbier
+# Stannek GmbH - v.1.01 - E.Sauerbier
 
 # Registrypfade
 $RegPathQS = "HKLM:\SOFTWARE\WOW6432Node\DATEV Viwas\StandardTasks\QuickScan"
