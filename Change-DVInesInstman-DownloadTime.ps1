@@ -1,9 +1,9 @@
 ﻿# Skript zum Anpassen der Instman DFÜ Abruf-Zeiten
-# Stannek GmbH - v.1.0 - 24.08.2023 - E.Sauerbier
+# Stannek GmbH - v.1.0.1 - 25.08.2023 - E.Sauerbier
 
 # Parameter
-$PathPRM = "L:\DATEV\DATEN\INSTMAN\Properties\DvInesProperties.prm"
-$PathINI = "L:\DATEV\DATEN\INSTMAN\Properties\DvInesProperties.prm.ini"
+$PathPRM = "\\$env:COMPUTERNAME\WINDVSW1\DATEV\DATEN\INSTMAN\Properties\DvInesProperties.prm"
+$PathINI = "\\$env:COMPUTERNAME\WINDVSW1\DATEV\DATEN\INSTMAN\Properties\DvInesProperties.prm.ini"
 
 # Zufallszahl fuer Stunde und Minute erstellen
 $RandomHour =Get-Random -Minimum "5" -Maximum "18"
